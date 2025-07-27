@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL'den Neden Nefret Ediyorum</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("arka-plan.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            min-height: 100vh;
+        }
+
+
+
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px 20px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #e74c3c;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            color: #666;
+            font-style: italic;
+        }
+
+        .neden-container {
+            background: rgba(167, 50, 50, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .neden-item {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: linear-gradient(45deg, #ff6b6b, #ffa8a8);
+            border-radius: 10px;
+            border-left: 5px solid #e74c3c;
+            transform: translateX(-10px);
+            transition: all 0.3s ease;
+            opacity: 0;
+            animation: slideIn 0.6s ease forwards;
+        }
+
+        .neden-item:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .neden-item:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .neden-item:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .neden-item:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+
+        .neden-item:nth-child(5) {
+            animation-delay: 0.5s;
+        }
+
+        .neden-item:hover {
+            transform: translateX(0px) scale(1.02);
+            box-shadow: 0 8px 25px rgba(231, 76, 60, 0.3);
+        }
+
+        .neden-baslik {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .neden-baslik::before {
+            content: "😤";
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .neden-aciklama {
+            color: #fff;
+            line-height: 1.6;
+            font-size: 1em;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            color: #fff;
+        }
+
+        .ekle-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.1em;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .ekle-btn:hover {
+            background: #2ecc71;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(46, 204, 113, 0.4);
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .neden-container {
+                padding: 20px;
+            }
+        }
+    </style>
+    <style>
+        .neden-item:nth-child(6) .neden-baslik::before {
+            content: "👑";
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>LoL'den Neden Nefret Ediyorum</h1>
+            <p>Kişisel deneyimlerime dayalı objektif analiz. Bu sitede Lole 1 gram bile hakaret edilmemektedir.</p>
+        </div>
+
+        <div class="neden-container">
+            <div class="neden-item">
+                <div class="neden-baslik">1. Toksik Topluluk</div>
+                <div class="neden-aciklama">
+                    Oyundaki diğer oyuncular sürekli küfür ediyor ve takım arkadaşlarını suçluyor. Eğlenceli bir oyun
+                    deneyimi yaşamak imkansız hale geliyor. Sen hariç brom
+                </div>
+            </div>
+
+            <div class="neden-item">
+                <div class="neden-baslik">2. Aşırı Uzun Maç Süreleri</div>
+                <div class="neden-aciklama">
+                    Bir maç minimum 30-40 dakika sürüyor. Bu kadar uzun süre boyunca konsantre kalmak ve oyuna
+                    odaklanmak gerçekten yorucu.
+                </div>
+            </div>
+
+            <div class="neden-item">
+                <div class="neden-baslik">3. Sürekli Meta Değişiklikleri</div>
+                <div class="neden-aciklama">
+                    Her patch'te oyun dengesi değişiyor. Bir şampiyonu öğrendiğinde, bir sonraki güncellemede tamamen
+                    değişiyor. Aslında benlik bizlik böyle bir sıkıntı yok brom herhangi bir şampiyon çıkar çıkmaz bizim
+                    havuzumuza ekleniyor.
+                </div>
+            </div>
+
+            <div class="neden-item">
+                <div class="neden-baslik">4. Bağımlılık Yaratıyor</div>
+                <div class="neden-aciklama">
+                    Oyun insanı kendine bağımlı hale getiriyor. "Bir maç daha" diyip saatlerce oynuyorsun ve zamanın
+                    nasıl geçtiğini anlamıyorsun.
+                </div>
+            </div>
+
+            <div class="neden-item">
+                <div class="neden-baslik">5. Stres ve Öfke</div>
+                <div class="neden-aciklama">
+                    Kaybettiğin maçlar gerçekten sinir bozucu. Oyun oynamak eğlenceli olmalı ama LoL genelde stres ve
+                    öfkeye neden oluyor.
+                </div>
+            </div>
+
+            <div class="neden-item">
+                <div class="neden-baslik">6. Tek İyi Yanı</div>
+                <div class="neden-aciklama">
+                    Çünkü brom senle oynuyoruz.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <p>Bu sadece kişisel görüşümüdür. Herkesin oyun tercihleri farklıdır.</p>
+            <button class="ekle-btn" onclick="yeniNedenEkle()">Yeni Neden Ekle</button>
+        </div>
+    </div>
+
+    <script>
+        let nedenSayisi = 5;
+
+        function yeniNedenEkle() {
+            const baslik = prompt("Yeni neden başlığı:");
+            const aciklama = prompt("Neden açıklaması:");
+
+            if (baslik && aciklama) {
+                nedenSayisi++;
+
+                const nedenContainer = document.querySelector('.neden-container');
+                const yeniNeden = document.createElement('div');
+                yeniNeden.className = 'neden-item';
+                yeniNeden.style.animationDelay = '0s';
+
+                yeniNeden.innerHTML = `
+                    <div class="neden-baslik">${nedenSayisi}. ${baslik}</div>
+                    <div class="neden-aciklama">${aciklama}</div>
+                `;
+
+                nedenContainer.appendChild(yeniNeden);
+            }
+        }
+
+        // Sayfa yüklendiğinde animasyon efekti
+        window.addEventListener('load', function () {
+            const nedenler = document.querySelectorAll('.neden-item');
+            nedenler.forEach((neden, index) => {
+                setTimeout(() => {
+                    neden.style.opacity = '1';
+                }, index * 100);
+            });
+        });
+    </script>
+</body>
+
+</html>
